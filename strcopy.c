@@ -1,5 +1,9 @@
 #include "main.h"
 #include <stdio.h>
+#include <stdlib.h>
+#include <stdarg.h>
+#include <string.h>
+
 /**
  * _strrev - Function that goes over
  * @str: The string

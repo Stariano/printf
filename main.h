@@ -1,11 +1,12 @@
+#ifndef MAINH
+#define MAINH
+
 #include <stdlib.h>
 #include <stdarg.h>
 #include <string.h>
 
-#ifdef MAIN.H
-#define MAIN.H
-
 int _printf(const char *format, ...);
-char * _itoa(int i, char *strout, int base);
+char *_itoa(int i, char *strout, int base);
+char *_strrev (char *str);
 
-#endif
+#endif /* MAINH */

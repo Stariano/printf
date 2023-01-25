@@ -1,5 +1,9 @@
 #include "main.h"
 #include <stdio.h>
+#include <stdlib.h>
+#include <stdarg.h>
+#include <string.h>
+
 /**
  * _printf - Function that mimic the original printf function
  * but on a smaller scale

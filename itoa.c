@@ -1,5 +1,9 @@
 #include "main.h"
 #include <stdio.h>
+#include <stdlib.h>
+#include <stdarg.h>
+#include <string.h>
+
 /**
  * _itoa - Function that takes an integer and convert it to a string
  * @i: is the integer needed to be converted.
